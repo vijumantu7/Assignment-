@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <form action="#" method="post"></form>
+    <table  border="2 solid black" width="600px" cellspacing="2" cellpadding="5">
+    <th colspan="2"><h2>Contact Us</h2>
+    </th>
+        <tr>
+            <td>First Name
+            </td> 
+        <td><input type="text" name="fname" placeholder="First Name"id="fname">
+        </td>    
+    </tr>
+    <tr>
+            <td>
+        Last Name
+        </td> 
+        <td><input type="text" name="lname" placeholder="LastName"id="lname">
+        </td>    
+    </tr>
+    <tr>
+            <td>
+        Email
+        </td> 
+        <td><input type="email" name="email" placeholder="Email" id="email">
+        </td>    
+    </tr>
+    
+    <tr>
+        <td>
+            Subject
+        </td>
+        <td> <input type="textarea"></td>
+    </tr>
+    <tr>
+        <td>Message</td>
+        <td><input type="textarea" name="hobbies" id="hobbies"></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit"  name="submit" value="submit">
+        </td>
+    </tr>
+
+    </table>
+    </form>
+</body>
+
+</html>
